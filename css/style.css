@@ -1,0 +1,17 @@
+*
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    margin:15px;
+}
+.navbar-default{
+    background: #ff8305;
+    color: white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
