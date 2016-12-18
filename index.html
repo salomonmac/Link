@@ -9,13 +9,14 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
 <!--Cabezera-->
-    <header class="container-fluid visible-md-block visible-lg-block">
+    <header class="container-fluid visible-sm-block visible-md-block visible-lg-block">
        <div class="row">
            <div class="col-xs-2">
-               <img src="img/Logo/link.png" alt="Link Tecnologías y Accesorios" class="img img-responsive">
+             <a href="index.html"><img src="img/Logo/link.png" alt="Link Tecnologías y Accesorios" class="img img-responsive"></a>  
            </div>
        </div>  
     </header>
@@ -23,39 +24,65 @@
        <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header visible-xs-block visible-sm-block">
+    <div class="navbar-header visible-xs-block">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Link Tecnologías y Accesorios</a>
+      <a class="navbar-brand" href="index.html">Link Tecnologías y Accesorios</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">INICIO <span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MARCAS <span class="caret"></span></a>
+        <li class="dropdown active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MARCA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="productos-motorola.html">Motorola</a></li>
-            <li><a href="#">Eton</a></li>
-            <li><a href="#">Mercury</a></li>
-             <li><a href="#">OtterBox</a></li> 
+                <li><a href="productos.html">Bahía</a></li>
+                <li><a href="productos.html">Blacklion</a></li>
+                <li><a href="productos.html">Búnker</a></li>
+                <li><a href="productos.html">Hashtag</a></li>
+                <li><a href="productos.html">Kiki Riki</a></li>
+                <li class="active"><a href="productos.html">Republiq</a></li>
+                <li><a href="productos.html">Tempo</a></li>
+                <li><a href="productos.html">Ulter</a></li> 
+                <li><a href="productos.html">URBN</a></li>
+                <li><a href="productos.html">Generation Accesories</a></li>         
           </ul>
         </li>
          <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACCESORIOS <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CATEGORÍA <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Bateria</a></li>
-             <li><a href="#">Bocinas</a></li>
-            <li><a href="#">Cables</a></li>
-            <li><a href="#">Iphone 6</a></li>
+               <li><a href="productos.html">Audio</a></li>
+               <li><a href="productos.html">Almacenamiento</a></li>
+               <li><a href="productos.html">Batería y carga</a></li>
+               <li><a href="productos.html">Proteccion</a></li>
+               <li><a href="productos.html">Ergonomía</a></li>
+               <li><a href="productos.html">Smartphones</a></li>
+               <li><a href="productos.html">Tablets</a></li>       
+          </ul>
+          
+        </li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EQUIPOS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                <li><a href="productos.html">Iphone 7</a></li>
+                <li><a href="productos.html">Iphone 7 Plus</a></li> 
+                <li><a href="productos.html">Iphone 6s/6</a></li> 
+                <li><a href="productos.html">Iphone 6s Plus/6</a></li> 
+                <li><a href="productos.html">Plus</a></li> 
+                <li><a href="productos.html">Iphone SE/5s/5</a></li> 
+                <li><a href="productos.html">Iphone 5c</a></li> 
+                <li><a href="productos.html">Ipad</a></li> 
+                <li><a href="productos.html">Samsung</a></li> 
+                <li><a href="productos.html">Sony</a></li> 
+                <li><a href="productos.html">Nexus</a></li> 
+                <li><a href="productos.html">Motorola</a></li>  
           </ul>
         </li>
-          <li><a href="promociones.html">PROMOCIONES</a></li>
+          
           <li><a href="catalogo.html">CATALOGO</a></li>
           <li><a href="contacto.html">CONTACTO</a></li>
       </ul>
@@ -121,66 +148,64 @@
     </div><!-- /.carousel -->
     <!--Contendido-->
     <section>
-       <div class="container-fluid">
+       <div class="container-fluid" id="inicio">
            <div class="col-xs-12 text-center row">
-            <h1>Experiencia <br>Unica <br><small>Un Lugar para ti </small></h1>
+            <h1 class="colorw">Experiencia <br><span class="colorr">Única</span><br><small class="colorw">Un Lugar para ti </small></h1>
             <div class="col-md-4"></div>
             <div class="col-md-4">
                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aspernatur explicabo distinctio minus fugiat eaque doloribus quibusdam, beatae aliquam dignissimos libero incidunt voluptates aut. Sed voluptas sint explicabo eaque, ducimus.</p>
+                <p class="colorw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aspernatur explicabo distinctio minus fugiat eaque doloribus quibusdam, beatae aliquam dignissimos libero incidunt voluptates aut. Sed voluptas sint explicabo eaque, ducimus.</p>
             </div>
             <div class="col-md-4"></div>
         </div>
        </div><br>
-       <div class="container-fluid">
+       <div class="container-fluid fondow">
            <div class="col-md-12">
-           <div class="row">
-            <div class="col-md-6 text-center">
+            <div class="col-sm-6 col-xs-12s text-center logos">
                 <h4 class="text-center">Haz grandes amigos para tu móvil. <br>Conoce nuestas marcas.</h4><br>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>1</h1>
+                   <img src="img/Logo/bahia.png" class="img img-responsive" alt="Bahia">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>2</h1>
+                    <img src="img/Logo/blacklion.png" class="img img-responsive" alt="Black Lion">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>3</h1>
+                     <img src="img/Logo/bunker.png" class="img img-responsive" alt="Bunker">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>4</h1>
+                     <img src="img/Logo/hashtag.png" class="img img-responsive" alt="Hash Tag">
+                </div>
+                <div class="clearfix visible-lg-block visible-md-block"></div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                     <img src="img/Logo/kikiriki.png" class="img img-responsive" alt="Kiki Riki">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>5</h1>
+                     <img src="img/Logo/republiq.png" class="img img-responsive" alt="Republiq">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>6</h1>
+                     <img src="img/Logo/tempo.png" class="img img-responsive" alt="Tempo">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>7</h1>
+                     <img src="img/Logo/ulter.png" class="img img-responsive" alt="Ulter">
+                </div>
+                <div class="clearfix visible-lg-block visible-md-block"></div>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                     <img src="img/Logo/urbn.png" class="img img-responsive" alt="URBN">
                 </div>
                 <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>8</h1>
-                </div>
-                <div class="col-md-3 col-sm-4 col-xs-6">
-                    <h1>9</h1>
+                     <img src="img/Logo/generation.png" class="img img-responsive" alt="Generation Accesories">
                 </div>
             </div>
-               </div>
-               <div class="row">
-            <div class="col-md-6">
-               <br>
-               <br>
-               <br>
-               <br>
-               <br>
-                <h2 class="text-center">Slider</h2>
+               
+            <div class="col-sm-6 col-xs-12">
+                <img src="img/slide-marcas-1.jpg" class="img img-responsive" alt="">
             </div>
-               </div>
+            
         </div>
        </div><br>
        <div class="container-fluid">
-           <div class="col-md-12 text-center">
-               <div class="col-md-4 col-sm-6">
+           <div class="col-md-12 text-center promo">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo1">
                    <h3><strong>URBN colores para todos</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -189,7 +214,7 @@
                    <div class="col-md-2"></div>
                    
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo2">
                    <h3><strong>2 son mejor que 1</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -197,7 +222,7 @@
                    </div>
                    <div class="col-md-2"></div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo3">
                    <h3><strong>Para espíritus aventureros</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -205,7 +230,7 @@
                    </div>
                    <div class="col-md-2"></div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo4">
                    <h3><strong>Blacklion</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -213,7 +238,7 @@
                    </div>
                    <div class="col-md-2"></div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo5">
                    <h3><strong>Selfix</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -221,7 +246,7 @@
                    </div>
                    <div class="col-md-2"></div>
                </div>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 promo2" id="bloqueo6">
                    <h3><strong>Sé diferente</strong></h3>
                    <div class="col-md-2"></div>
                    <div class="col-md-8">
@@ -232,7 +257,7 @@
            </div>
        </div>
        
-    </section>    
+    </section>  
     <!--Footer-->
     <div class="container-fluid redes">
         <div class="row">
@@ -241,7 +266,10 @@
                 <ul>
                      <a href="https://www.facebook.com/Link.Tecnologias.y.Accesorios"><li><img src="img/facebook.png" alt="Facebook"></li></a>
                     <a href="https://twitter.com/AccesoriosLink"><li><img src="img/twitter.png" alt="Twitter"></li></a>
-                    <a href="https://plus.google.com/u/0/102154097724424015300"><li><img src="img/gpluse.png" alt="Google Plus"></li></a>
+                   <!-- <a href="https://plus.google.com/u/0/102154097724424015300"><li><img src="img/gpluse.png" alt="Google Plus"></li></a>-->
+                    <a href="https://www.instagram.com/linkaccesories/"><li><img src="img/instagram.png" alt="Pinterest"></li></a>
+                     <a href="https://es.pinterest.com/linktecnologiay/"><li><img src="img/pinterest.png" alt="Pinterest"></li></a>
+                     <!--<a href="https://www.youtube.com/channel/UCF6Brasu0gd2i_TorkWoQBg"><li><img src="img/youtube.png" alt="Pinterest"></li></a>-->
                 </ul>
             </div>
         </div>

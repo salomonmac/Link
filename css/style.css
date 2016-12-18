@@ -2,6 +2,9 @@
 {
     font-family: 'Source Sans Pro', sans-serif;
 }
+body{
+    background: rgba(240, 240, 240, 0.46);
+}
 header{
     margin:1em;
 }
@@ -34,4 +37,82 @@ footer{
 }
 .thumbnail{
     border: none;
+}
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.63);
+    color: black;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: black;
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background-color: #0090b5;
+}
+#inicio{
+    background: url(../img/stock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5em;
+}
+.colorw {
+    color: white;
+}
+
+.colorr {
+    color: #ff8305;
+}
+
+.logos img{
+    max-width: 100%;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+
+.fondow {
+    background: white;
+}
+#bloqueo1{
+    background: url(../img/bloque-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloqueo2{
+    background: url(../img/bloque-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloqueo3{
+    background: url(../img/bloque-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloqueo4{
+    background: url(../img/bloque-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloqueo5{
+    background: url(../img/bloque-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bloqueo6{
+    background: url(../img/bloque-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.promo .promo2{
+    padding-bottom: 20em;
+    margin-bottom: 1.5em;
 }
