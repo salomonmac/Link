@@ -9,7 +9,7 @@ header{
     margin:1em;
 }
 .navbar-default{
-    background: #ff8305;
+    background: #0090b5;
     color: white;
 }
 .navbar-default .navbar-nav>li>a {
@@ -47,8 +47,8 @@ footer{
     background-color: white;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-    color: white;
-    background-color: #0090b5;
+    color: #0090b5;
+    background-color: white;
 }
 #inicio{
     background: url(../img/stock.jpg);

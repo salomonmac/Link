@@ -3,3 +3,55 @@
      padding: 6px 5px;
 }
 }
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     .logos img{
+    max-width: 70%;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px) {
+     .slider2 img{
+   margin-top: 2.7em;
+         margin-left: 1em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+     .promo .promo2{
+    padding-bottom: 14em;
+    margin-bottom: 1.5em;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+     .slider2 {
+    margin-top: 2.7em;
+}
+}
+@media screen and (min-width: 1440px){
+     .slide img{
+     margin-bottom: -14.9em;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+     .slide img{
+     margin-bottom: -20.85em;
+}
+}
+@media screen and (max-width: 767px){
+     .navbar-nav .open .dropdown-menu{
+     background-color: white;
+}
+}
+@media screen and (max-width: 767px){
+     
+    .navbar-default .navbar-nav .open .dropdown-menu>.active>a, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover{
+    color: black;
+        background-color: #0090b5;
+    }
+}
+@media screen and (max-width: 767px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: black;
+    }
+}
