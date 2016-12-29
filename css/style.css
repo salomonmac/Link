@@ -116,3 +116,16 @@ footer{
     padding-bottom: 20em;
     margin-bottom: 1.5em;
 }
+
+ .producto .thumbnail{
+    border-bottom: solid 0.4em #0090b5;
+}
+
+.accesorio {
+    margin-top: 5em;
+}
+.accesorio ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 1em;
+}

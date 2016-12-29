@@ -55,3 +55,53 @@
         color: black;
     }
 }
+
+@media screen and (min-width: 1440px)  {
+     .accesorio  .img{
+    padding-left: 30%;
+    width: 65%;
+}
+}
+@media screen and (min-width: 1440px)  {
+     .accesorio  ul li img{
+    width: 7%;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)  {
+     .accesorio  .img{
+    padding-left: 30%;
+    width: 65%;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px)  {
+     .accesorio  ul li img{
+    width: 8%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px)  {
+     .accesorio  .img{
+    padding-left: 10%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 900px)   {
+     .accesorio  ul li img{
+    width: 20%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px)    {
+     .accesorio {
+    margin-top: 0px;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px)    {
+     .accesorio  .img{
+    padding-left: 20%;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 425px)    {
+     .accesorio .visible-xs-block ul li img{
+   width: 15%;
+}
+}
